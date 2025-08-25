@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel = "stylesheet" href="BMIcalculator.css">
+    <script src = "BMIcalculator.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+ </head>
+ <body>
+    <div class = "container">
+    <form action = "BMIcalculator2.html" method="get" onsubmit="return validateForm(event)">
+    <h2>BMI calculator</h2>
+    <label for = "number" id = "n">Enter weight in grams</label>
+    <input type = "number" id = "weight" placeholder = "50000g"step="any"><br><br>
+    <label for = "number" id = "s">Convert To Kilograms</label>
+    <input type = "number" id = "BmiCalculator" step="any"><br><br>
+    <button type = "button" onclick = "weightConversion()">Convert to kilogram</button><br><br>
+    <label for = "number" id = "num">Enter height in Centimeter</label>
+    <input type = "number" id = "height" placeholder = "150cm"step="any"><br><br>
+    <label for = "number">Convert height to Meter</label>
+    <input type = "number" id = "BmiCalculator2"step="any"><br><br>
+    <button type = "button" onclick = "heightConversion()">Convert to Meter</button><br><br><br>
+    <button type="submit" class="button-link" >Proceed</button>
+    
+    </form>
+
+    </div>
+</body>
+</html>

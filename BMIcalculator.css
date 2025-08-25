@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1200");;
+    background-size: cover;
+    /* background-position: center; */
+    opacity: 130%;
+}
+
+div {
+    background: gainsboro;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    /* margin: 0 auto 50px auto; */
+    margin-top: 100px;
+    margin-left: 450px;
+    justify-content: center;
+}
+
+.button-link {
+    width: 150px;
+    background-color: gray;
+}
+
+#num {
+    margin-left: -3px;
+}
+
+#height {
+    width: 140px;
+}
+
+#n {
+    margin-left: -6px;
+}
+
+#weight {
+    width: 170px;
+}
+
+#s {
+    margin-right: 10px;
+}
+
+#BmiCalculator {
+    margin-right: 6px;
+    width: 157px;
+}
+
+#u {
+    margin-left: -2px;
+}
+
+#Na {
+    width: 40.2%;
+}
+
+#kilo {
+    width: 44%;
+}
+
+#meter {
+    width: 40.5%;
+}
+
+#t {
+    margin-left: 2px;
+}
